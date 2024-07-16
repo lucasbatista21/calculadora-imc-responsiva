@@ -51,19 +51,38 @@
                 <div class="input-box">
                     <!-- Label de altura -->
                     <label for="height">
-                        Altura em M
+                        Altura em metros
                     </label>
                     <!-- Ícone e Input de altura -->
                     <div class="input-field">
-                        <i class="fas fa-weight-hanging"></i>
+                        <i class="fa-solid fa-ruler"></i>
                         <input type="number" id="height" required>
                         <span>
-                            Kg
+                            m
                         </span>
                     </div>
                 </div>
 
+                <button id="calculate">Calcular</button>
             </form>
+            <div id="infos">
+                <div id="result">
+                    <div id="imc">
+                        <span id="value"></span>
+                        <span>Seu IMC</span>
+                    </div>
+                    <div id="description">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div id="more-infos">
+                    <a href="https://www.prefeitura.sp.gov.br/cidade/secretarias/saude/noticias/?p=332991">
+                    Mais informações sobre o IMC
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+                </div>
+            </div>
         </section>
     </main>
 
