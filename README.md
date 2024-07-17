@@ -1,2 +1,2 @@
 # calculadora-imc
- Meu primeiro repositório como desenvolvedor web
+Este é meu primeiro repositório como desenvolvedor Frontend

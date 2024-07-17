@@ -36,7 +36,7 @@
                     <!-- Ícone e Input de peso -->
                     <div class="input-field">
                         <i class="fas fa-weight-hanging"></i>
-                        <input type="number" id="weight" required>
+                        <input type="number" id="weight" step="0.1" required>
                         <span>
                             Kg
                         </span>
@@ -51,7 +51,7 @@
                     <!-- Ícone e Input de altura -->
                     <div class="input-field">
                         <i class="fa-solid fa-ruler"></i>
-                        <input type="number" id="height" required>
+                        <input type="number" id="height" step="0.1" required>
                         <span>
                             m
                         </span>
@@ -65,11 +65,11 @@
             <div id="infos" class="hidden">
                 <div id="result">
                     <div id="imc">
-                        <span id="value">55</span>
+                        <span id="value"></span>
                         <span>Seu IMC</span>
                     </div>
                     <div id="description">
-                        <span>desc</span>
+                        <span></span>
                     </div>
                 </div>
 
@@ -85,7 +85,7 @@
     </main>
 
     <!-- Integração do JavaScript -->
-    <script src="js/index.js"></script>
+    <script src="assets/js/index.js"></script>
 </body>
 
 </html>
